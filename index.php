@@ -2,15 +2,17 @@
 
 <html>
     
-    <?php include('inc/app.php');?>
+    <?php include('inc/app-heading.php');?>
     
     <body>
-        <div class="ui container">
+        <div>
             <?php include('inc/app-nav.php');?>
-            <h1> Index heading </h1>
+            <div class="ui container">
+                
+                <h1> Index heading </h1>
+            </div>
         </div>
-
-        <?php include('inc/app-scripts.php');?>
+        <?php //include('inc/app-scripts.php');?>
     </body>
 
 </html>
