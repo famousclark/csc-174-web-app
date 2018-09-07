@@ -2,17 +2,19 @@
 
 <html>
     
-    <?php include('inc/app-heading.php');?>
+    <?php include('./inc/app-heading.php');?>
     
     <body>
         <div>
-            <?php include('inc/app-nav.php');?>
+            <?php include('./inc/app-nav.php');?>
             <div class="ui container">
 
                 <h1> About Heading </h1>
             </div>
         </div>
-        <?php //include('inc/app-scripts.php');?>
+
+        <script src="./scripts/nav.js?<?php echo time(); ?>"></script>
+        <?php //include('./inc/app-scripts.php');?>
     </body>
 
 </html>

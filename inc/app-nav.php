@@ -1,4 +1,4 @@
-<nav>
+<nav id='nav'>
     <ul>
         <li>
             <a href='index.php'>Home</a>

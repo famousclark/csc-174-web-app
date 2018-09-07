@@ -1,32 +1,54 @@
+/*********************************/
+/*Snippet modified from W3Schools - https://www.w3schools.com/Css/css_navbar.asp */
+/*********************************/
 nav ul {
-    list-style-type: none;
+    /*Formatting*/
     margin: 0;
     padding: 0;
+
+    /*List styles*/
+    list-style-type: none;
     overflow: hidden;
-    background-color: #333;
+
+    /*Color and appearance*/
+    background-color: #cccccc;
+    opacity: .6;
 }
 
 nav li {
+    /*Formatting*/
     float: left;
-    border-right:1px solid #bbb;
+
+    /*Borders*/
+    border-right:1px solid #dddddd;
 }
 
 nav li:last-child {
+    /*Borders*/
     border-right: none;
 }
 
 nav li a {
-    display: block;
-    color: white;
+    /*Formatting*/
+    display: block ;
     text-align: center;
     padding: 14px 16px;
+
+    /*Decoration*/
     text-decoration: none;
+
+    /*Color and appearance*/
+    color: #000000;
 }
 
 nav li a:hover:not(.active) {
-    background-color: #111;
+    /*Color and appearance*/
+    background-color: #aaaaaa;
+    color: #3333ff;
 }
 
 .active {
-    background-color: #4CAF50;
+    /*Color and appearance */
+    background-color: #3333ff;
+    color: #ffffff;
 }
