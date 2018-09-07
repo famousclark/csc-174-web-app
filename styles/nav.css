@@ -11,9 +11,10 @@ nav ul {
     overflow: hidden;
 
     /*Color and appearance*/
-    background-color: #cccccc;
+    /*background-color: #cccccc;*/
     opacity: .6;
 }
+
 
 nav li {
     /*Formatting*/
@@ -41,14 +42,15 @@ nav li a {
     color: #000000;
 }
 
+
 nav li a:hover:not(.active) {
     /*Color and appearance*/
-    background-color: #aaaaaa;
+    /*background-color: #aaaaaa;*/
     color: #3333ff;
 }
 
 .active {
     /*Color and appearance */
-    background-color: #3333ff;
-    color: #ffffff;
+    /*background-color: #3333ff;*/
+    color: #00c3ff;
 }
