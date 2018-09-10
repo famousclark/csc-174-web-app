@@ -1,0 +1,15 @@
+header:first-child {
+    margin-top: -0.14em;
+}
+header{
+    /*Formatting*/
+    margin: calc(2rem - 0.14285714em ) 0em 1rem;
+    padding: 0em 0em;
+    
+    /*Fonting*/
+    font-weight: bold;
+    line-height: 1.2em;
+
+    /*Color and Apperance*/
+    color: rgba(0, 0, 0, 0.87);
+}

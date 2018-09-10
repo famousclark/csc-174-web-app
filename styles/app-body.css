@@ -1,0 +1,18 @@
+body{
+    /*Formatting*/
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    min-width: 320px;
+
+    /*Color and appearance*/
+    background: #FFFFFF;
+    color: rgba(0, 0, 0, 0.3);
+
+    /*Fonting */
+    font-size: 14px;
+    line-height: 1.4285em;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica;
+}
+
+
