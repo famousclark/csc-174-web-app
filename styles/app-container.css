@@ -1,7 +1,10 @@
 .container {
     /*Fromatting*/
     display: block;
-    max-width: 700px;
+    width:1200px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 
     /*Fonting*/
     font-size: 1.14rem;
@@ -10,7 +13,7 @@
 
 @media only screen and (max-width: 1200px) and (min-width: 990px){
     .container {
-        width: 933px;
+        width: 900px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -18,7 +21,8 @@
 
 @media only screen and (max-width: 989px) and (min-width: 761px){
     .container {
-        width: 723px;
+        /*Formatting*/
+        width: 700px;
         margin-left: auto;
         margin-right: auto;
     }

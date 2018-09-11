@@ -1,0 +1,26 @@
+.images.left{
+    /*Formatting*/
+    margin-right: 1em;
+    margin-bottom: 1em;
+    float: left;
+}
+
+.images.left{
+    /*Formatting*/
+    margin-left: 1em;
+    margin-bottom: 1em;
+    float: right;
+}
+
+.images{
+    /*Formatting*/
+    position: relative;
+    vertical-align: middle;
+    max-width: 100%; 
+    width: 400px;
+    height: auto;
+
+    /*Fonting*/
+    font-size: 1rem;
+}
+

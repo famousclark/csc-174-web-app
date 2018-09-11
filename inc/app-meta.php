@@ -10,5 +10,6 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles/app-footer.css?<?php echo time();?>"/>
     <link rel="stylesheet" type="text/css" media="screen" href="styles/app-container.css?<?php echo time();?>"/>
     <link rel="stylesheet" type="text/css" media="screen" href="styles/app-nav.css?<?php echo time();?>"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/app-images.css?<?php echo time();?>"/>
     
  </head>   
